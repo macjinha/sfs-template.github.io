@@ -206,7 +206,7 @@ a:hover { color: var(--color-accent-2); }
 
 .button {
     min-width: 200px;
-    display: inline-block;
+    display: block;
     padding: 12px 20px;
     margin: 6px 0;
     background-color: var(--color-accent);
