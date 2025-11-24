@@ -233,8 +233,8 @@ a:hover { color: var(--color-accent-2); }
 
 .table th,
 .table td {
-    padding: 12px 14px;
-    text-align: left;
+    padding: 10px 10px;
+    text-align: center;
     font-size: 15px;
     color: var(--color-text);
 }
@@ -288,9 +288,8 @@ a:hover { color: var(--color-accent-2); }
 }
 
 footer {
-    background: var(--color-background0);
+    background: var(--color-back2);
     color: white;
-    padding: 30px 20px;
 }
 
 .footer-container {
@@ -302,13 +301,13 @@ footer {
     gap: 12px;
     text-align: center;
 }
-
+/*
 .footer-left,
 .footer-center,
 .footer-right {
     padding: 10px;
 }
-
+*/
 .footer-left,
 .footer-center,
 .footer-right {
@@ -327,7 +326,7 @@ footer {
 .footer-center a,
 .footer-right a {
     display: block;
-    color: var(--color-accent);
+    color: var(--color-gradient-4);
     text-decoration: none;
     margin-top: 5px;
     transition: color 0.3s ease;
